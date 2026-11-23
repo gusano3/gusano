@@ -20,24 +20,18 @@
   date: '2026-12-06'
 - link: /images/gallery/conser.mp4
   name: conser
-- link: /images/gallery/cueva-alon.webp
-  name: cueva-alon
-  date: '2026-11-21'
 - link: /images/gallery/cueva-dic.webp
   name: cueva-dic
   date: '2026-12-05'
 - link: /images/gallery/flich.jpg
   name: flich
   date: '2026-11-22'
-- link: /images/gallery/ronda1.webp
-  name: ronda1
-  date: '2026-11-21'
 - link: /images/gallery/sofa.jpg
   name: sofa
   date: '2026-12-10'
-- link: /images/gallery/cueva2_hu_85a1b578905ce820.webp
-  name: cueva2_hu_85a1b578905ce820
-  date: '2026-11-21'
 - link: /images/gallery/gemsa.jpg
   name: gemsa
   date: '2026-12-02'
+- link: /images/gallery/ronda1_hu_56514735824b03da.webp
+  name: ronda1_hu_56514735824b03da
+  date: '2026-11-23'
