@@ -15,28 +15,34 @@ identifier = "ZBqnseLlBL"
 weight = 1
 
 [[main]]
+name = "Fanzines"
+pageRef = "/fanzines"
+identifier = "fanzines"
+weight = 2
+
+[[main]]
 name = "Bandas"
 pageRef = "/bandas"
 identifier = "kQoMKxtpfo"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Espacios"
 pageRef = "/espacios"
 identifier = "dfrsL3pRdo"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Rocola"
 pageRef = "/rocola"
 identifier = "rocola"
-weight = 4
+weight = 5
 
 [[main]]
 name = "Flyers"
 pageRef = "/flyers"
 identifier = "flyers"
-weight = 5
+weight = 6
 
 # Sonido subterráneo on Internet Archive. External, so `url` not `pageRef`.
 # `title` is set by hand: the other six entries inherit .Title from the page
@@ -47,13 +53,13 @@ name = "Archive"
 title = "Archive"
 url = "https://archive.org/details/@audiogusano"
 identifier = "internet-archive"
-weight = 6
+weight = 7
 
 [[main]]
 name = "Contacto"
 pageRef = "/contacto"
 identifier = "contacto"
-weight = 7
+weight = 8
 
 [[footer]]
 none = "none"

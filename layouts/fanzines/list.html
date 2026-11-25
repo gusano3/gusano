@@ -11,10 +11,6 @@
     </div>
   </header>
 
-  <section class="fanzine-intro prose dark:prose-invert max-w-prose mb-8">
-    {{ .Content }}
-  </section>
-
   {{ if gt (len .Pages) 0 }}
     <section class="fanzine-grid">
       {{ range .Pages.ByDate.Reverse }}
@@ -58,6 +54,12 @@
     </section>
   {{ end }}
 
+  {{ with .Content }}
+    <section class="fanzine-outro prose dark:prose-invert max-w-prose mx-auto mt-10">
+      {{ . | safeHTML }}
+    </section>
+  {{ end }}
+
   <style>
     .fanzine-grid {
       display: grid;
@@ -84,6 +86,25 @@
     .fanzine-card-body { padding: .75rem 1rem 1rem; }
     .fanzine-card-title { margin: 0; font-size: 1.05rem; }
     .fanzine-card-meta { margin: .25rem 0 .5rem; color: var(--text-muted); font-size: .85rem; }
+    .fanzine-upload-cta { text-align: center; margin: 2rem 0; }
+    .fanzine-download-btn {
+      background-color: var(--accent);
+      color: var(--on-accent);
+      border: 1.5px solid var(--accent);
+      padding: 8px 18px;
+      min-width: 96px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 6px;
+      text-align: center;
+      text-decoration: none;
+      transition: opacity 0.15s ease, transform 0.1s ease;
+      display: inline-block;
+    }
+    .fanzine-download-btn:hover {
+      opacity: 0.85;
+      transform: translateY(-1px);
+    }
   </style>
   <script>
   (function () {
